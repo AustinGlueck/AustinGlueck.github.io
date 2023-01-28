@@ -42,6 +42,9 @@ a
   
   
   }
+.nopadheadline{
+    margin-bottom: 0px;
+}
 
 .headline h5, 
 .headline p {
@@ -76,6 +79,7 @@ a
 {
     color:#a54700;
 }
+
 .agButton,
 agButton,
 input[type="submit"],
@@ -250,4 +254,67 @@ input[type="button"].button-primary:disabled {
   cursor: not-allowed;
   background-color: #7CD9F8;
   border-color: #7CD9F8;
+}
+
+.agButton2,
+agButton2,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 2.5rem;
+  padding: 0 1.9rem;
+  color: #555;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #BBB;
+  cursor: pointer;
+  -webkit-transition: border 0.2s;
+  transition: border 0.2s;
+}
+
+.agButton2:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+.agButton2:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+  color: #222;
+  border-color: #222;
+}
+
+.agButton2:disabled,
+.button:disabled:hover,
+button[disabled],
+.button[disabled],
+.button-primary[disabled],
+.button-success[disabled],
+.button-danger[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled] {
+  border: 1px solid #E3E3E3;
+  color: #888;
+  cursor: not-allowed;
 }
